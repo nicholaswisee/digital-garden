@@ -13,11 +13,11 @@ cssclasses:
 
 Before contributing, please refer to the README.
 
-### [Drive Akademik Anggota Muda HMIF](https://drive.google.com/drive/u/1/folders1-j8tW0uupcM5HbfcSmmoeoc_oHQ_ja1L)
+### [Drive Akademik Anggota Muda HMIF](https://drive.google.com/drive/u/1/folders/1-j8tW0uupcM5HbfcSmmoeoc_oHQ_ja1L)
 
 ---
 
-## Mata Kuliah IF
+## [Mata Kuliah IF](./List%20Mata%20Kuliah/Mata%20Kuliah%20IF/)
 
 <div class="semester-row">
 <div class="semester-card">
@@ -48,7 +48,7 @@ Before contributing, please refer to the README.
 </div>
 </div>
 
-## Mata Kuliah STI
+## [Mata Kuliah STI](./List%20Mata%20Kuliah/Mata%20Kuliah%20STI/)
 
 <div class="semester-row">
 <div class="semester-card">
