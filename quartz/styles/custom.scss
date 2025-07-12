@@ -9,6 +9,60 @@ body {
   min-height: 100vh;
 }
 
+.matakuliah {
+  .topics-list-card {
+    position: relative;
+    margin: 2rem auto;
+    max-width: 600px;
+    background: linear-gradient(293deg, #354F9A 30.03%, #244296 69.97%);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(59, 74, 154, 0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 2rem 2rem 1rem 2rem;
+    color: white;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .topics-list-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #BFDBFE;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .topics-list-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .topics-list-card li {
+    background: rgba(130, 167, 255, 0.18);
+    border-radius: 12px;
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.7rem;
+    font-weight: 500;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(59, 74, 154, 0.10);
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+        text-decoration: underline;
+        color: #A5F3FC;
+      }
+    }
+  }
+}
+
 // Blue gradient cards for homepage
 .homepage {
   // Flex container for semester pairs
