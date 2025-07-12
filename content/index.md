@@ -32,7 +32,7 @@ Before contributing, please refer to the README.
 - [[IF1230 Organisasi dan Arsitektur Komputer]]
 - [[WI2001 Pengenalan Rekayasa dan Desain]]
 - [[WI2005 Bahasa Indonesia]]
-- [[IF1210 Algoritma dan Pemrograman 1]]
+- [[IF1210 Algoritma dan Pemrograman 1 (IF)]]
 
 </div>
 <div class="semester-card">
@@ -58,7 +58,7 @@ Before contributing, please refer to the README.
 ### STI - Semester 2
 
 - [[II1200 Pengantar Sistem dan Teknologi Informasi]]
-- [[IF1210 Algoritma dan Pemrograman 1]]
+- [[IF1210 Algoritma dan Pemrograman 1 (STI)]]
 - [[WI2001 Pengenalan Rekayasa dan Desain]]
 - [[WI2005 Bahasa Indonesia]]
 - [[WI201X Agama]]
