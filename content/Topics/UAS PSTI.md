@@ -2,7 +2,6 @@
 title: UAS PSTI
 draft: false
 tags:
-  - home
 cssclasses:
   - topic
 ---
