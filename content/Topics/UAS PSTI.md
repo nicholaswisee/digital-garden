@@ -166,15 +166,15 @@ Pengelompokan posisi berdasarkan:
 
 ### ✅ Fungsi Manajemen (POAC + lainnya)
 
-|   |   |
-|---|---|
-|Fungsi|Penjelasan|
-|Planning|Menentukan tujuan dan cara mencapainya|
-|Organizing|Menyusun struktur organisasi dan tanggung jawab|
-|Leading|Memotivasi anggota untuk menjalankan rencana|
-|Controlling|Monitoring dan koreksi jika ada deviasi dari rencana|
-|Staffing|(Tambahan) Menempatkan orang yang tepat|
-|Others|Innovating, Representing, Directing, Coordinating, dll (bergantung referensi)|
+|             |                                                                               |
+| ----------- | ----------------------------------------------------------------------------- |
+| Fungsi      | Penjelasan                                                                    |
+| Planning    | Menentukan tujuan dan cara mencapainya                                        |
+| Organizing  | Menyusun struktur organisasi dan tanggung jawab                               |
+| Leading     | Memotivasi anggota untuk menjalankan rencana                                  |
+| Controlling | Monitoring dan koreksi jika ada deviasi dari rencana                          |
+| Staffing    | (Tambahan) Menempatkan orang yang tepat                                       |
+| Others      | Innovating, Representing, Directing, Coordinating, dll (bergantung referensi) |
 
 ### ✅ Peran Manajer (Mintzberg)
 
