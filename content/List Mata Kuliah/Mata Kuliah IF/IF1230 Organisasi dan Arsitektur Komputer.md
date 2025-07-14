@@ -11,6 +11,7 @@ Semoga bermanfaat <br>
 Source: PPT IF1230 Organisasi dan Arsitektur Komputer 
 
 <div class ="topics-list-card">
+
 ### Topik OrKom IF 
 - [[Representasi Integer dan String]]
 - [[Floating Point]]
@@ -23,6 +24,6 @@ Source: PPT IF1230 Organisasi dan Arsitektur Komputer
 
 </div>
 
-<br><br> ** Disusun oleh: Aufa Rienaldifaza Ahmad (fazabobi) - 13524027 **
+#### Disusun oleh: Aufa Rienaldifaza Ahmad (fazabobi) - 13524027 
 
 
