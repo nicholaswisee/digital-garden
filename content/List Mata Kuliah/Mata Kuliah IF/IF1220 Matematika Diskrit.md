@@ -9,7 +9,7 @@ cssclasses:
 <div class="topics-list-card">
 
 ### Topik ---
-
+- [[Logika]]
 - 
 
 </div>
