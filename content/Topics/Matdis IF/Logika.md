@@ -57,37 +57,38 @@ Nilai kebenaran dalam proposisi majemuk dapat ditentukan dengan menggunakan "tab
 |  F  |  T  |  F  |     F     |  F   |     F      |             F              |
 |  F  |  F  |  T  |     F     |  T   |     T      |             T              |
 |  F  |  F  |  F  |     F     |  T   |     F      |             F              |
+
 Proposisi majemuk akan disebut tautologi jika ia benar untuk semua kemungkinan kasus, dan akan disebut kontradiksi jika ia salah untuk semua kemungkinan kasus. Dua buah proposisi majemuk, *P*(*p*, *q*, ..) dan *Q*(*p*, *q*, ..) disebut ekivalen secara logika jika keduanya mempunyai tabel kebenaran yang identik (notasi : *P*(*p*, *q*, ..) ⟺ *Q*(*p*, *q*, ..)). 
 Hukum-hukum Logika disebut juga hukum-hukum aljabar proposisi, yang dapat dijabarkan sebagai berikut : 
 1. Hukum identitas
-	*p* ∨ **F** ⟺ *p*
-	*p* ∧ **T** ⟺ *p*
+	- *p* ∨ **F** ⟺ *p*
+	- *p* ∧ **T** ⟺ *p*
 2. Hukum *null*/dominasi
-	*p* ∧ **F** ⟺ **F**
-	*p* ∨ **T** ⟺ **T**
+	- *p* ∧ **F** ⟺ **F**
+	- *p* ∨ **T** ⟺ **T**
 3. Hukum negasi
-	*p* ∨ ~*p* ⟺ **T**
-	*p* ∧ ~*p* ⟺ **F**
+	- *p* ∨ ~*p* ⟺ **T**
+	- *p* ∧ ~*p* ⟺ **F**
 4. Hukum idempoten
-	*p* ∨ *p* ⟺ *p*
-	*p* ∧ *p* ⟺ *p*
+	- *p* ∨ *p* ⟺ *p*
+	- *p* ∧ *p* ⟺ *p*
 5. Hukum involusi (negasi ganda)
-	~(~*p*) ⟺ *p*
+	- ~(~*p*) ⟺ *p*
 6. Hukum penyerapan (absorbsi)
-	*p* ∨ (*p* ∧ *q*) ⟺ *p*
-	*p* ∧ (*p* ∨ *q*) ⟺ *p*
+	- *p* ∨ (*p* ∧ *q*) ⟺ *p*
+	- *p* ∧ (*p* ∨ *q*) ⟺ *p*
 7. Hukum komutatif
-	*p* ∧ *q* ⟺ *q* ∧ *p*
-	*p* ∨ *q* ⟺ *q* ∨ *p*
+	- *p* ∧ *q* ⟺ *q* ∧ *p*
+	- *p* ∨ *q* ⟺ *q* ∨ *p*
 8. Hukum asosiatif
-	*p* ∧ (*q* ∧ *r*) ⟺ (*p* ∧ *q*) ∧ *r*
-	*p* ∨ (*q* ∨ *r*) ⟺ (*p* ∨ *q*) ∨ *r*
+	- *p* ∧ (*q* ∧ *r*) ⟺ (*p* ∧ *q*) ∧ *r*
+	- *p* ∨ (*q* ∨ *r*) ⟺ (*p* ∨ *q*) ∨ *r*
 9. Hukum distributif
-	*p* ∨ (*q* ∧ *r*) ⟺ (*p* ∨ *q*) ∧ (*p* ∨ *r*)
-	*p* ∧ (*q* ∨ *r*) ⟺ (*p* ∧ *q*) ∨ (*p* ∧ *r*)
+	- *p* ∨ (*q* ∧ *r*) ⟺ (*p* ∨ *q*) ∧ (*p* ∨ *r*)
+	- *p* ∧ (*q* ∨ *r*) ⟺ (*p* ∧ *q*) ∨ (*p* ∧ *r*)
 10. Hukum de Morgan
-	~(*p* ∧ *q*) ⟺ ~*p* ∨ ~*q*
-	~(*p* ∨ *q*) ⟺ ~*p* ∧ ~*q*
+	- ~(*p* ∧ *q*) ⟺ ~*p* ∨ ~*q*
+	- ~(*p* ∨ *q*) ⟺ ~*p* ∧ ~*q*
 
 ### 1.3. Implikasi
 Implikasi biasa disebut proposisi bersyarat yang berbentuk "jika p, maka q" (notasi : *p* → *q*). *p* disebut hipotesis, antesenden, premis, atau kondisi, sedangkan *q* disebut konklusi atau konsekuen. Contohnya : 
@@ -101,6 +102,7 @@ Tabel kebenaran untuk implikasi :
 |  T  |  F  |     F     |
 |  F  |  T  |     T     |
 |  F  |  F  |     T     |
+
 Perlu diperhatikan bahwa implikasi hanya memperhatikan nilai kebenaran premis dan konsekuen, bukan hubungan sebab akibat antara keduanya. Implikasi berikut ini valid meskipun secara bahasa tidak memiliki makna : 
 - Jika 5 - 2 = 3, maka hujan akan terjadi di Bandung.
 - Jika n merupakan pecahan, maka kipas angin akan mati. 
@@ -123,6 +125,7 @@ Biimplikasi dinyatakan dalam bentuk "p jika dan hanya jika q" (notasi : *p* ↔ 
 |  T  |  F  |     F     |
 |  F  |  T  |     F     |
 |  F  |  F  |     F     |
+
 Pernyataan "p jika dan hanya jika q" dapat dibaca "jika p maka q dan jika q maka p" (*p* ↔ *q* ⟺ (*p* → *q*) ∧ (*q* → *p*)). Contoh : 
 - |x| < a jika dan hanya jika –a < x < a, yang dalam hal ini a > 0
 Ada beberapa cara untuk menyatakan bikondisional *p* ↔ *q* : 
@@ -134,66 +137,114 @@ Bila dua proposisi majemuk yang ekivalen di-bikondisionalkan maka hasilnya adala
 
 ## 2. Argumen 
 Argmen adalah suatu deret proposisi yang ditulis sebagai 
+
 *p1*
+
 *p2*
+
 ⋮
+
 *pn*
+
 —
+
 ∴ *q*
+
 yang dalam hal ini, *p1*, *p2*, …, *pn* disebut hipotesis (atau premis), dan *q* disebut konklusi. Konklusi biasanya ditandai dengan kata “Jadi”, “Oleh karen itu”,“Dengan demikian, “, dan lain-lain. Contoh dari argumen : 
 - Jika anda mahasiswa Informatika maka anda tidak sulit belajar Bahasa Java. Jika anda tidak suka begadang maka anda bukan mahasiswa Informatika. Tetapi, anda sulit belajar Bahasa Java dan anda tidak suka begadang. Jadi, anda bukan mahasiswa Informatika.
 Terdapat argumen yang sahih (valid) dan palsu (invalid). Sebuah argumen dikatakan sahih jika konklusi benar bilamana semua hipotesisnya benar; sebaliknya argumen dikatakan palsu (fallacy atau invalid). Jika argumen sahih, maka kadang-kadang kita mengatakan bahwa secara logika konklusi mengikuti hipotesis atau sama dengan memperlihatkan bahwa implikasi (*p1* ∧ *p2* ∧ ...  *pn*) → *q* adalah benar (yaitu, sebuah tautologi). Argumen yang palsu menunjukkan proses penalaran yang tidak benar. Beberapa argumen yang sudah dipastikan sahih : 
 1. Modus ponen
+	
 	*p* → *q*
+	
 	*p*
+	
 	———
+	
 	∴ *q*
 2. Modus tollen
+
 	*p* → *q*
+	
 	~*q*
+	
 	———
+	
 	∴ *p*
 3. Aturan transitif
+	
 	*p* → *q*
+	
 	*q* → *r*
+	
 	———
+	
 	∴ *p* → *r*
 4. Silogisme disjungtif/kontrapositif
+	
 	*p* ∨ *q*
+	
 	~*p*
+	
 	———
+	
 	∴ *q*
 
+
+
 	*p* ∨ *q*
+	
 	~*q*
+	
 	———
+	
 	∴ *p*
 5. Simplifikasi Konjungtiif
+	
 	*p* ∧ *q*
+	
 	———
+	
 	∴ *p*
 
+
 	*p* ∧ *q*
+	
 	———
+	
 	∴ *q*
 6. Penjumlahan disjungtif
+	
 	*p*
+	
 	———
+	
 	∴ *p* ∨ *q*
 7. Konjungsi
+	
 	*p*
+	
 	*q*
+	
 	———
+	
 	∴ *p* ∧ *q*
+
 Selain menggunakan tabel kebenaran, sebuah argumen juga dapat dibuktikan kesahihannya dengan menggunakan campuran hukum-hukum logika dan metode penarikan kesimpulan yang sudah terbukti sahih (modus ponen, modus tollen, dsb). Contoh : 
 - Buktikan bahwa argumen berikut benar: 
 	~*p* ∨ *q* , *s* ∨ *p*, ~*q* ⇒ s
 	Bukti : 
+	
 		(1) ~*p* ∨ *q* (Premis)
+		
 		(2) ~*q* (Premis)
+		
 		(3) ~*p* (Silogisme disjungtif (1) dan (2))
+		
 		(4) *s* ∨ *p* (Premis)
+		
 		(5) *s* (Silogisme disjungtif (3) dan (4))
+		
 
 ## 3. Aksioma, Teorema, Lemma, Corollary
 Aksioma adalah proposisi yang diasumsikan benar. Aksioma tidak memerlukan pembuktian kebenaran lagi. Contoh :
