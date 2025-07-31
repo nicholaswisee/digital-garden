@@ -7,19 +7,25 @@ Logika didasarkan pada hubungan antara kalimat atau pernyataan. Proposisi adalah
 - -999 < 999 (benar)
 - Sekarang tahun 1977 atau tahun 888 (salah)
 - $x - y = y - x$ untuk semua  $x,y$ ∈ $R$ 
+
 Contoh kalimat yang bukan proposisi : 
 - Hari ini mau makan apa? (kalimat tanya)
 - Bukan jendela itu sekarang! (kalimat perintah)
 - $a + b < 81$ (kalmat terbuka)
+
 Jadi, kesimpulannya adalah prosisi haruslah berupa kalimat berita. Pernyataan yang melibatkan variabel disebut predikat, kalimat terbuka. Contoh : 
 - $x > 3$ 
+	
 	Notasi : $P(x) : x < 3$
 - $∀x P(x)$
+	
 	Contoh predikat dengan *quantifier*
+
 Proposisi dilambangkan dengan huruf kecil *p*, *q*, *r*, .... Contoh : 
 - *p* : 513414 adalah bilangan ganjil.
 - *q* : $7 - 3 + 4$.
 - *r* : Indonesia terletak di benua Asia.
+
 Proposisi dapat dinyatakan dalam 4 bentuk : 
 1. Proposisi atomik
 2. Proposisi majemuk
@@ -36,13 +42,18 @@ Proposisi atomik adalah proposisi tunggal, contohnya seperti berikut :
 ### 1.2. Proposisi Majemuk
 Misalkan *p* dan *q* adalah proposisi atomik. Ada 4 macam proposisi majemuk : 
 1. Konjungsi (*conjunction*) : *p* dan *q*
+	
 	Notasi *p* ∧ *q*
 2. Disjungsi (*disjunction*) : *p* atau *q*
+	
 	Notasi *p* ∨ *q*
 3. Ingkaran (*negation*) : tidak *p*
+	
 	Notasi ~*p*
 4. Disjungsi eksklusif : *p* atau *q* tapi bukan keduanya
+	
 	Notasi *p* ⊕ *q* 
+
 Nilai kebenaran dalam proposisi majemuk dapat ditentukan dengan menggunakan "tabel kebenaran". Contoh : 
 - Proposisi majemuk : (*p* ∧ *q*) ∨ (~*q* ∧ *r*)
 	Tabel kebenaran : 
@@ -133,6 +144,7 @@ Ada beberapa cara untuk menyatakan bikondisional *p* ↔ *q* :
 - p adalah syarat perlu dan cukup untuk q.
 - Jika p maka q, dan sebaliknya.
 - p iff q
+
 Bila dua proposisi majemuk yang ekivalen di-bikondisionalkan maka hasilnya adalah tautologi. Dua buah proposisi majemuk, *P*(*p*, *q*, ..) dan *Q*(*p*, *q*, ..) disebut ekivalen secara logika, dilambangkan dengan *P*(*p*, *q*, …) ⟺ *Q*(*p*, *q*, …) jika *P* ↔ *Q* adalah tautologi.
 
 ## 2. Argumen 
@@ -250,4 +262,5 @@ Selain menggunakan tabel kebenaran, sebuah argumen juga dapat dibuktikan kesahih
 Aksioma adalah proposisi yang diasumsikan benar. Aksioma tidak memerlukan pembuktian kebenaran lagi. Contoh :
 - Untuk semua bilangan real x dan y, berlaku x + y = y + x (hukum komutatif penjumlahan).
 - Jika diberikan dua buah titik yang berbeda, maka hanya ada satu garis lurus yang melalui dua buah titik tersebut.
+
 Teorema adalah proposisi yang sudah terbukti benar. Bentuk khusus dari teorema adalah lemma dan corollary. Lemma adalah teorema sederhana yang digunakan untuk pembuktian teorema lain, sedangkan corollary adalah teorema yang dapat dibentuk langsung dari teorema yang telah dibuktikan, atau dapat diartikan sebagai teorema yang mengikuti teorema lain.
